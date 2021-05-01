@@ -11,7 +11,7 @@ body {
 	background-size: cover;
 }
 .content1 {
-	width: 1500px;
+	width: 100%;
 	margin: 50px auto;
 	display: flex;
 	flex-flow: row;
@@ -19,15 +19,19 @@ body {
 .gallery {
 	display: flex;
 	flex-flow: row wrap;
-	width: 1500px;
-	justify-content: space-between;
+	width: 100%;
+	justify-content: space-evenly;
 }
 .card {
 	display: inline-block;
-	width: 475px;
-	height: 550px;
+	width: 25%;
+	height: auto;
 	border: 1px solid #d91448;
 	margin: 50px 15px 50px 15px;
+}
+.card img{
+	width: 100%;
+	height: auto;
 }
 .card_description {
 	padding: 0 20px 20px 20px;

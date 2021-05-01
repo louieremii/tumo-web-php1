@@ -11,17 +11,22 @@ body {
 	height: 350px;
 	background-size: cover;
 }
-.image img {
-	width: 640px;
-	height: 360px;
+.image{
+	margin: 50px 0px 50px 50px;
+	width: 45%;
+	height: auto;
+}
+.image img{
+	width: 100%;
 }
 .content1 {
-	width: 1400px;
-	margin: 50px auto;
+	width: 100%;
+	margin-bottom: 50px;
 	display: flex;
-	flex-flow: row;
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .description {
-	width: 640px;
+	margin: 50px 50px 50px 0px;
+	width: 45%;
 }

@@ -53,10 +53,11 @@ a {
 }
 .content1 {
 	margin: auto;
-	width: 1500px;
+	width: 100%;
 	display: flex;
 	flex-flow: row;
 	justify-content: space-around;
+	margin-bottom: 50px;
 }
 .description {
 	width: 700px;

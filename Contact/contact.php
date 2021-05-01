@@ -14,7 +14,7 @@
 			<div class="content1">
 				<div class="form">
 					<h1>Contact us!</h1>
-					<form>
+					<form action="action.php" method="post">
 						<label for="name">Name:</label><br>
   						<input type="text" id="name" name="name"><br>
   						<label for="email">Email:</label><br>
@@ -22,8 +22,8 @@
   						<label for="phone">Phone:</label><br>
   						<input type="text" id="phone" name="phone"><br>
   						<label for="letter">Write us a letter:</label><br>
-  						<textarea class="letter"></textarea><br>
-  						<input type="submit" class="submit" name="submit" value="Send">
+  						<textarea class="letter" name="letter" maxlength="1000"></textarea><br>
+  						<input type="submit" class="submit" name="Send" value="Send">
 					</form>
 				</div>
 				<div class="iframe">

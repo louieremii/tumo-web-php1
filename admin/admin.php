@@ -11,6 +11,6 @@
 		<input type="submit" name="add">
 	</form>
 
-	<?php include('news_list.php') ?>
+	<?php include('product_info.php') ?>
 </body>
 </html>

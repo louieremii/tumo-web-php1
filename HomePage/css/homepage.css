@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #facdda;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.cover {
+	background-image: url('../../img/homepage/banner.jpg');
+	background-repeat: no-repeat;
+	height: 350px;
+	background-size: cover;
+}
+.slider {
+	margin-top: 50px; 
+	width: 600px;
+	height: 300px;
+	display: flex;
+	flex-flow: column;
+}
+.top {
+	background-image: url('../../img/homepage/pastry1.jpg');
+	height: 200px;
+}
+.bottom {
+	height: 110px;
+	display: flex;
+	flex-flow: row;
+}
+.box1 {
+	background-image: url('../../img/homepage/pastry2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 190px;
+	margin: 10px 10px 0 0;
+}
+.box2 {
+	background-image: url('../../img/homepage/pastry3.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 190px;
+	margin: 10px 5px 0 5px;
+}
+.box3 {
+	background-image: url('../../img/homepage/pastry4.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 190px;
+	margin: 10px 0 0 10px;
+}
+.content1 {
+	margin: auto;
+	width: 1500px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+.description {
+	width: 700px;
+	height: 400px;
+}
+.clickme {
+	background-color: black;
+	border-radius: 15px;
+	width: 100px;
+	height: 30px;
+	border: none;
+}
+.learnmore {
+	border: none;
+	background-color: #d91448;
+	border-radius: 15px;
+	width: 100px;
+	height: 30px;
+}

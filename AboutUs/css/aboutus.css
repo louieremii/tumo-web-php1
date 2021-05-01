@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #facdda;
+}
+
+.cover {
+	background-image: url('../../img/aboutus/banner.jpg');
+	background-repeat: no-repeat;
+	height: 350px;
+	background-size: cover;
+}
+.image img {
+	width: 640px;
+	height: 360px;
+}
+.content1 {
+	width: 1400px;
+	margin: 50px auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+.description {
+	width: 640px;
+}

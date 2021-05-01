@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #facdda;
+}
+.cover {
+	background-image: url('../../img/single/banner.jpg');
+	background-repeat: repeat;
+	height: 350px;
+	background-size: cover;
+}
+.ingredients {
+	margin-left: 50px;
+	width: 500px;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+}
+.recipe {
+	width: 1200px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	margin: auto;
+	background-color: #FFEBF0;
+}
+table, tr, th, td {
+	border: 1px solid #d91448;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 10px;
+}
+.preparation {
+	margin-right: 50px;
+	width: 800px;
+	margin-bottom: 100px;
+}
+h1 {
+	font-size: 66px;
+}
